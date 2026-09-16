@@ -1,0 +1,24 @@
+# TASKS 087 — SGNET_NATIVE_CLIENT
+
+- [x] Создать отдельную feature branch от точного `lx` HEAD.
+- [x] Зафиксировать FEATURE 017 и SPEC/PLAN до кода.
+- [ ] Сверить SG-Net/1 wire constants и golden vectors с `s-gor/sg-net`.
+- [ ] Написать failing codec/auth tests.
+- [ ] Реализовать frame/destination/auth primitives.
+- [ ] Написать failing TLS-exporter handshake tests.
+- [ ] Реализовать client handshake/session.
+- [ ] Написать failing TCP OpenResult/stream tests.
+- [ ] Реализовать TCP logical stream.
+- [ ] Написать failing UDP tests.
+- [ ] Реализовать UDP packet path.
+- [ ] Написать failing reconnect tests.
+- [ ] Реализовать reconnect для новых операций после transport failure.
+- [ ] Добавить `sgnet` options/type/factory за `with_sgnet` минимальными `// lx:` seams.
+- [ ] Добавить include registration/stub и build wiring.
+- [ ] Добавить config validation/check fixture.
+- [ ] Прогнать package unit/race tests.
+- [ ] Прогнать no-tag DoD и lx tagged build/vet/tests.
+- [ ] Собрать test artifact.
+- [ ] Проверить неизменённый существующий SG-Net Server: TCP, 20 sequential, 20 parallel, wrong credential, reconnect, UDP.
+- [ ] Выполнить внешний TLS/traffic fingerprint capture/сравнение; любые изменения маскировки только по измеренной находке.
+- [ ] Заполнить IMPLEMENTATION_REPORT.md и обновить статус после фактической приёмки.
